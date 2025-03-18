@@ -1,0 +1,34 @@
+<itsabeastystatewerein version='2.0' sample='20000'>
+<statenode id='Tree.t:HRTV_S_BEAST'>(((((0:1.390360882650153,6:1.390360882650153)30:0.34770032158065156,(1:0.046611924820652906,2:0.04661192482066712)28:0.6914492794098532)25:7.9726095332928235,(((3:0.35812848587410695,5:2.3581284858740785)27:0.40987162851970016,7:0.7680001143937076)23:0.47415622450044737,4:1.242156338894155)24:4.468514398629203)29:34.45117432401268,8:44.16184506153631)26:26.851492733632853,(((((9:0.6996490753168079,(14:0.02945576540711592,16:0.02945576540714434)22:3.670193309909692)34:17.606984217046694,(15:12.503043281161684,17:14.503043281161684)21:11.803590011201816)36:18.209341394003644,(11:0.06190927796377377,12:0.06190927796377377)35:45.454065408403274)33:1.2727253670981753,13:37.78870005346529)20:3.0884459391739085,((10:3.507594505821098,18:7.507594505821098)32:28.13333286169336,19:35.64092736751444)37:13.236218625124756)31:16.136191802529638)38:0.0</statenode>
+<statenode id='TPM3rates.s:HRTV_S_BEAST'>TPM3rates.s:HRTV_S_BEAST[3 1] (0.0,Infinity): 0.11386627224982504 2.48498587438173 0.4011478533684451 </statenode>
+<statenode id='fastUcldStdev.c:HRTV_S_BEAST'>fastUcldStdev.c:HRTV_S_BEAST[1 1] (-Infinity,Infinity): 1.5955797232613331 </statenode>
+<statenode id='fastRates.c:HRTV_S_BEAST'>fastRates.c:HRTV_S_BEAST[38 1] (0.0,Infinity): 0.028775263993865034 0.07752408028060882 0.07847650249373353 0.04092682336004916 0.002104066952043207 0.5503130038656405 2.981952754856718 3.4926787150917 0.030446074359940654 0.05535070272874624 2.4777356183015526 0.011148578410289479 0.58587575996568 0.4519558129897191 0.17804340374269662 0.3594786991519146 0.8702276046587687 0.6874901728817792 1.0452044125841053 1.8232269749783225 2.1304987919106604 0.10607494890786061 0.004343961646202704 3.944781847938293 0.007941314215250305 0.15206645624976473 0.7875576242285109 0.026302191785329842 1.664701478241962 0.17396695714303312 8.731134957155962 0.14543861485779522 0.8571476553989353 0.08110944990994019 0.4924603909642036 0.4155104427646085 0.9450387362815207 0.12847568437888343 </statenode>
+<statenode id='fastUcldMean.c:HRTV_S_BEAST'>fastUcldMean.c:HRTV_S_BEAST[1 1] (0.0,10.0): 4.1387759769786374E-4 </statenode>
+<statenode id='bPopSizes.t:HRTV_S_BEAST'>bPopSizes.t:HRTV_S_BEAST[5 1] (0.0,Infinity): 6.0711979804611325 19.940226061299658 41.80280448288216 139.6763616928084 9.796180423561413 </statenode>
+<statenode id='bGroupSizes.t:HRTV_S_BEAST'>bGroupSizes.t:HRTV_S_BEAST[5 1] (1,2147483647): 7 2 2 5 3 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"TPM3RateDeltaExchanger.s:HRTV_S_BEAST","p":0.1,"accept":3755,"reject":2648,"acceptFC":0,"rejectFC":0,"rejectIv":77,"rejectOp":77},
+{"id":"fastUcldMeanScaler.c:HRTV_S_BEAST","p":0.5,"accept":71333,"reject":249407,"acceptFC":0,"rejectFC":0,"rejectIv":109,"rejectOp":109},
+{"id":"fastUcldStdevScaler.c:HRTV_S_BEAST","p":0.5,"accept":116832,"reject":202346,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"FastInternalnodesOperator.c:HRTV_S_BEAST","p":0.02,"accept":974255,"reject":307192,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"FastRootOperator1.c:HRTV_S_BEAST","p":0.02,"accept":55555,"reject":8120,"acceptFC":0,"rejectFC":0,"rejectIv":296,"rejectOp":296},
+{"id":"FastRootOperator2.c:HRTV_S_BEAST","p":0.02,"accept":55808,"reject":8139,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"FastRootOperator3.c:HRTV_S_BEAST","p":0.002,"accept":573,"reject":5821,"acceptFC":0,"rejectFC":0,"rejectIv":4117,"rejectOp":4112},
+{"id":"RatesRandomWalk.c:HRTV_S_BEAST","p":0.1,"accept":135149,"reject":56467,"acceptFC":0,"rejectFC":0,"rejectIv":2763,"rejectOp":2763},
+{"id":"RatesSwapOperator.c:HRTV_S_BEAST","p":"NaN","accept":117228,"reject":74832,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"RatesScaleOperator.c:HRTV_S_BEAST","p":0.75,"accept":105400,"reject":86808,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"BayesianSkylineBICEPSEpochTop.t:HRTV_S_BEAST","p":0.1,"accept":28322,"reject":99181,"acceptFC":0,"rejectFC":0,"rejectIv":50509,"rejectOp":50509},
+{"id":"BayesianSkylineBICEPSEpochAll.t:HRTV_S_BEAST","p":0.1,"accept":29028,"reject":99447,"acceptFC":0,"rejectFC":0,"rejectIv":51082,"rejectOp":51082},
+{"id":"BayesianSkylineBICEPSTreeFlex.t:HRTV_S_BEAST","p":0.01,"accept":104375,"reject":23527,"acceptFC":0,"rejectFC":0,"rejectIv":8691,"rejectOp":8691},
+{"id":"BayesianSkylineTreeRootScaler.t:HRTV_S_BEAST","p":0.1,"accept":55473,"reject":136623,"acceptFC":0,"rejectFC":0,"rejectIv":53514,"rejectOp":53514},
+{"id":"BayesianSkylineUniformOperator.t:HRTV_S_BEAST","p":0.1,"accept":1766429,"reject":152097,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"BayesianSkylineSubtreeSlide.t:HRTV_S_BEAST","p":1,"accept":361127,"reject":598726,"acceptFC":0,"rejectFC":0,"rejectIv":191979,"rejectOp":191979},
+{"id":"BayesianSkylineNarrow.t:HRTV_S_BEAST","p":"NaN","accept":287404,"reject":671381,"acceptFC":0,"rejectFC":0,"rejectIv":183873,"rejectOp":183873},
+{"id":"BayesianSkylineWide.t:HRTV_S_BEAST","p":"NaN","accept":3608,"reject":188110,"acceptFC":0,"rejectFC":0,"rejectIv":156146,"rejectOp":156146},
+{"id":"BayesianSkylineWilsonBalding.t:HRTV_S_BEAST","p":"NaN","accept":4045,"reject":188039,"acceptFC":0,"rejectFC":0,"rejectIv":39378,"rejectOp":39378},
+{"id":"popSizesScaler.t:HRTV_S_BEAST","p":0.75,"accept":402145,"reject":558015,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"groupSizesDelta.t:HRTV_S_BEAST","p":1,"accept":140872,"reject":242358,"acceptFC":0,"rejectFC":0,"rejectIv":76531,"rejectOp":76531}
+]}
+-->

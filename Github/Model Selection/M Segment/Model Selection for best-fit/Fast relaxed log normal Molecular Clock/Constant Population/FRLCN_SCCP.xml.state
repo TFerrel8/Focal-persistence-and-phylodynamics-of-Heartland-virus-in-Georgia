@@ -1,0 +1,38 @@
+<itsabeastystatewerein version='2.0' sample='20000'>
+<statenode id='Tree.t:HRTV_M_BEAST'>(((9:12.236458875842082,(14:0.10996992496615299,16:0.10996992496615299)23:15.126488950874508)21:61.40363616169035,(15:36.631664139577076,17:38.631664139577076)25:43.008430897954845)36:342.91524373678607,((19:226.55714125745118,((((((((6:4.52917319291865,4:0.5291731929151826)30:0.2086723837676674,5:2.7378455766818837)28:0.34803044957953855,(0:1.3248417072745189,1:0.3248417072707672)26:3.761034318991337)29:6.297702730457731,2:10.383578756719494)27:0.45145110872367944,3:7.835029865443628)34:37.44619077634074,7:45.28122064178437)33:22.044442216294584,8:71.3256628580826)24:144.59128489342362,(10:41.392807327633925,18:45.392807327633925)31:164.5241404238691)37:16.64019350594853)35:0.2079482481873356,((11:1.5257617283808136,12:1.5257617283808136)32:153.19163760828806,13:145.71739933666905)20:73.04769016896941)22:197.7902492686796)38:0.0</statenode>
+<statenode id='gammaShape.s:HRTV_M_BEAST'>gammaShape.s:HRTV_M_BEAST[1 1] (0.1,1000.0): 0.22086657220436182 </statenode>
+<statenode id='TPM2ufrates.s:HRTV_M_BEAST'>TPM2ufrates.s:HRTV_M_BEAST[3 1] (0.0,Infinity): 0.36621731482793285 2.5205849121252006 0.11319777304686478 </statenode>
+<statenode id='TPM2uffreqParameter.s:HRTV_M_BEAST'>TPM2uffreqParameter.s:HRTV_M_BEAST[4 1] (0.0,1.0): 0.26090535211779864 0.19691645430336746 0.28783037881217044 0.25434781476666357 </statenode>
+<statenode id='proportionInvariant.s:HRTV_M_BEAST'>proportionInvariant.s:HRTV_M_BEAST[1 1] (0.0,1.0): 0.0 </statenode>
+<statenode id='fastUcldStdev.c:HRTV_M_BEAST'>fastUcldStdev.c:HRTV_M_BEAST[1 1] (-Infinity,Infinity): 1.060042231451581 </statenode>
+<statenode id='fastRates.c:HRTV_M_BEAST'>fastRates.c:HRTV_M_BEAST[38 1] (0.0,Infinity): 0.09765797671724476 0.4740418593480298 0.654486206909313 0.8345338518278054 0.2456311958866524 0.07768593315008158 0.0962397319295318 1.1832168432133676 1.134097703104683 0.05926693609541602 0.6799818163332629 4.083632246345131 0.031133490948239903 1.2473435641410977 0.7915276112228607 0.8148653025046207 1.5560457278352977 1.8606398628391931 0.48822133934208406 1.2944652152299916 0.9473263152075783 1.5547644762663064 0.3988923870389161 0.4756609386008142 1.2874112503068549 0.02356057790749773 0.07977601347704161 0.7193200390757896 0.6883360337587167 0.07993362471986179 2.622501392140481 0.9170417756564028 1.432615507976912 0.6927418345867885 0.16094614286012404 0.8696927004428988 2.5796582653209135 0.27821422150163794 </statenode>
+<statenode id='fastUcldMean.c:HRTV_M_BEAST'>fastUcldMean.c:HRTV_M_BEAST[1 1] (0.0,10.0): 3.8776281279977184E-5 </statenode>
+<statenode id='popSize.t:HRTV_M_BEAST'>popSize.t:HRTV_M_BEAST[1 1] (0.0,Infinity): 371.3129290011034 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"proportionInvariantScaler.s:HRTV_M_BEAST","p":"NaN","accept":0,"reject":3418,"acceptFC":0,"rejectFC":0,"rejectIv":3141,"rejectOp":3141,"nProposals":3418,"param_mean_sum":"[0.0]","param_mean_SS":"[0.0]","numAccepts":"[0, 0]","numProposals":"[1249, 1170]","operator_mean_runtimes":"[0.021000000000000428, 0.0018538461538461122]","mean_SS":"[[0.0], [0.0]]","weights":"[0.5, 0.5]","operators":[{"id":"AVMNOperator.HRTV_M_BEAST","p":1,"means":"[-1.4672559665018758, -Infinity, 43.9434986136193]","covariance":"[0.315644272898398, NaN, 58.85128770188476, NaN, NaN, 162613.83861974694]","accept":0,"reject":2415,"acceptFC":0,"rejectFC":0,"rejectIv":1870,"rejectOp":1870},{"id":"proportionInvariantScalerX.s:HRTV_M_BEAST","p":0.5,"accept":0,"reject":1668,"acceptFC":0,"rejectFC":0,"rejectIv":1668,"rejectOp":1668}]},
+{"id":"gammaShapeScaler.s:HRTV_M_BEAST","p":"NaN","accept":1129,"reject":2243,"acceptFC":0,"rejectFC":0,"rejectIv":463,"rejectOp":463,"nProposals":3372,"param_mean_sum":"[0.34903896276119595]","param_mean_SS":"[0.18791490841894637]","numAccepts":"[0, 1129]","numProposals":"[200, 2173]","operator_mean_runtimes":"[0.005994999999999906, 0.04927887712839523]","mean_SS":"[[0.0], [0.03380311593210281]]","weights":"[0.0, 1.0]","operators":[{"id":"AVMNOperator.HRTV_M_BEAST","p":1,"means":"[-1.4672559665018758, -Infinity, 43.9434986136193]","covariance":"[0.315644272898398, NaN, 58.85128770188476, NaN, NaN, 162613.83861974694]","accept":0,"reject":2415,"acceptFC":0,"rejectFC":0,"rejectIv":1870,"rejectOp":1870},{"id":"gammaShapeScalerX.s:HRTV_M_BEAST","p":0.5,"accept":1129,"reject":1578,"acceptFC":0,"rejectFC":0,"rejectIv":66,"rejectOp":66}]},
+{"id":"TPM2ufRateDeltaExchanger.s:HRTV_M_BEAST","p":0.1,"accept":3865,"reject":2834,"acceptFC":0,"rejectFC":0,"rejectIv":22,"rejectOp":22},
+{"id":"TPM2ufFrequenciesExchanger.s:HRTV_M_BEAST","p":0.01,"accept":4589,"reject":2309,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"fastUcldMeanScaler.c:HRTV_M_BEAST","p":0.5,"accept":71569,"reject":269860,"acceptFC":0,"rejectFC":0,"rejectIv":32,"rejectOp":32},
+{"id":"fastUcldStdevScaler.c:HRTV_M_BEAST","p":0.5,"accept":140218,"reject":201767,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"FastInternalnodesOperator.c:HRTV_M_BEAST","p":0.02,"accept":1079598,"reject":288250,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"FastRootOperator1.c:HRTV_M_BEAST","p":0.02,"accept":64194,"reject":3665,"acceptFC":0,"rejectFC":0,"rejectIv":29,"rejectOp":29},
+{"id":"FastRootOperator2.c:HRTV_M_BEAST","p":0.02,"accept":64201,"reject":3788,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"FastRootOperator3.c:HRTV_M_BEAST","p":0.002,"accept":383,"reject":6574,"acceptFC":0,"rejectFC":0,"rejectIv":6070,"rejectOp":6070},
+{"id":"RatesRandomWalk.c:HRTV_M_BEAST","p":0.1,"accept":136901,"reject":68600,"acceptFC":0,"rejectFC":0,"rejectIv":2424,"rejectOp":2424},
+{"id":"RatesSwapOperator.c:HRTV_M_BEAST","p":"NaN","accept":135289,"reject":69359,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"RatesScaleOperator.c:HRTV_M_BEAST","p":0.75,"accept":103097,"reject":102805,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentConstantBICEPSEpochTop.t:HRTV_M_BEAST","p":0.1,"accept":49465,"reject":87048,"acceptFC":0,"rejectFC":0,"rejectIv":34170,"rejectOp":34170},
+{"id":"CoalescentConstantBICEPSEpochAll.t:HRTV_M_BEAST","p":0.1,"accept":49386,"reject":87489,"acceptFC":0,"rejectFC":0,"rejectIv":34532,"rejectOp":34532},
+{"id":"CoalescentConstantBICEPSTreeFlex.t:HRTV_M_BEAST","p":0.01,"accept":116658,"reject":20370,"acceptFC":0,"rejectFC":0,"rejectIv":4958,"rejectOp":4958},
+{"id":"CoalescentConstantTreeRootScaler.t:HRTV_M_BEAST","p":0.1,"accept":94522,"reject":111037,"acceptFC":0,"rejectFC":0,"rejectIv":6948,"rejectOp":6948},
+{"id":"CoalescentConstantUniformOperator.t:HRTV_M_BEAST","p":0.1,"accept":1904628,"reject":148483,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentConstantSubtreeSlide.t:HRTV_M_BEAST","p":1,"accept":711430,"reject":315563,"acceptFC":0,"rejectFC":0,"rejectIv":115413,"rejectOp":115413},
+{"id":"CoalescentConstantNarrow.t:HRTV_M_BEAST","p":"NaN","accept":377652,"reject":650655,"acceptFC":0,"rejectFC":0,"rejectIv":190840,"rejectOp":190840},
+{"id":"CoalescentConstantWide.t:HRTV_M_BEAST","p":"NaN","accept":7532,"reject":197410,"acceptFC":0,"rejectFC":0,"rejectIv":145889,"rejectOp":145889},
+{"id":"CoalescentConstantWilsonBalding.t:HRTV_M_BEAST","p":"NaN","accept":7513,"reject":197850,"acceptFC":0,"rejectFC":0,"rejectIv":40681,"rejectOp":40681},
+{"id":"PopSizeScaler.t:HRTV_M_BEAST","p":0.75,"accept":34825,"reject":169979,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0}
+]}
+-->

@@ -1,0 +1,38 @@
+<itsabeastystatewerein version='2.0' sample='20000'>
+<statenode id='Tree.t:HRTV_L_BEAST'>(((13:282.72272381510135,(11:0.8875951273505507,12:0.8875951273505507)32:290.83512868775085)36:2.3647383213204876,(((((6:18.543977521828765,(0:13.473483024675316,(1:3.999805819306644,(2:1.3714272154253346,5:0.37142721542533463)25:2.628378603881423)24:8.473677205367023)28:5.070494497153449)26:0.2416209682796655,(3:1.4393524969489935,4:1.4393524969489935)27:13.346245993157675)30:6.18576921887534,7:20.97136770898218)29:102.09169252352967,8:127.06306023251345)23:145.155925589471,((10:34.29772782741251,15:38.29772782741251)33:209.96468313964087,14:248.26241096705309)35:17.956574854929784)22:26.868476314438908)37:21.46148852921465,(((16:3.0682763340546853,18:3.068276334054742)21:0.011383766147041285,9:0.079660100201556)34:49.81450376222546,(17:22.221986542760867,19:24.221986542760867)20:33.672177319665984)31:256.6547868032098)38:0.0</statenode>
+<statenode id='TIM3ufrates.s:HRTV_L_BEAST'>TIM3ufrates.s:HRTV_L_BEAST[4 1] (0.0,Infinity): 0.08669770068347343 2.0071557842578676 0.3216489465429376 3.1761509212893104 </statenode>
+<statenode id='TIM3uffreqParameter.s:HRTV_L_BEAST'>TIM3uffreqParameter.s:HRTV_L_BEAST[4 1] (0.0,1.0): 0.30842830657627324 0.19764504829218232 0.24989047666308636 0.2440361684684583 </statenode>
+<statenode id='proportionInvariant.s:HRTV_L_BEAST'>proportionInvariant.s:HRTV_L_BEAST[1 1] (0.0,1.0): 0.794043434746031 </statenode>
+<statenode id='fastUcldMean.c:HRTV_L_BEAST'>fastUcldMean.c:HRTV_L_BEAST[1 1] (-Infinity,Infinity): 5.727862871435177E-5 </statenode>
+<statenode id='fastUcldStdev.c:HRTV_L_BEAST'>fastUcldStdev.c:HRTV_L_BEAST[1 1] (-Infinity,Infinity): 0.9412926951169123 </statenode>
+<statenode id='fastRates.c:HRTV_L_BEAST'>fastRates.c:HRTV_L_BEAST[38 1] (0.0,Infinity): 0.47276578797031094 0.08123358228716612 1.4902615859394377 0.07997389666760053 3.8568470489650477 0.06000534889045202 0.16483660596667474 1.5257720651108433 0.3093782142612367 0.8832734481813322 1.3986127711759238 3.2502732331770123 0.13905036715964456 0.6284623473278539 0.5445367644148427 0.6653638712013541 0.8425484577317008 1.2144652226127435 0.10509647284464668 0.9275542108265445 0.11562987900334198 0.2294974897828029 1.0135360176350663 0.9323022638196454 1.3278910317917916 2.0716374701101277 0.25640129188842514 0.6532858423255549 0.4765770484697282 0.17401587958506265 2.3669788228047715 0.4238693219200032 0.5984231842205834 0.5536251965858587 0.9572671575885379 0.07789169612603651 0.30629753822283723 0.9045532356185749 </statenode>
+<statenode id='bPopSizes.t:HRTV_L_BEAST'>bPopSizes.t:HRTV_L_BEAST[5 1] (0.0,Infinity): 34.51400412529393 60.494970903105276 397.96454462083324 293.07648227789633 187.43834177286567 </statenode>
+<statenode id='bGroupSizes.t:HRTV_L_BEAST'>bGroupSizes.t:HRTV_L_BEAST[5 1] (1,2147483647): 2 5 8 2 2 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"proportionInvariantScaler.s:HRTV_L_BEAST","p":"NaN","accept":54,"reject":4071,"acceptFC":0,"rejectFC":0,"rejectIv":1768,"rejectOp":1768,"nProposals":4125,"param_mean_sum":"[0.7962531666723367]","param_mean_SS":"[0.6342616244439054]","numAccepts":"[7, 47]","numProposals":"[386, 2740]","operator_mean_runtimes":"[0.05017357512953371, 0.014490875912408403]","mean_SS":"[[0.002322601814402711], [0.010319785778260716]]","weights":"[0.06430176847298733, 0.9356982315270127]","operators":[{"id":"AVMNOperator.HRTV_L_BEAST","p":1,"means":"[-0.2281297736139786, 129.24439800920447]","covariance":"[0.0019468190400896573, -0.1664011694290438, 14013.035364389898]","accept":7,"reject":878,"acceptFC":0,"rejectFC":0,"rejectIv":249,"rejectOp":249},{"id":"proportionInvariantScalerX.s:HRTV_L_BEAST","p":0.5,"accept":47,"reject":3193,"acceptFC":0,"rejectFC":0,"rejectIv":1519,"rejectOp":1519}]},
+{"id":"TIM3ufRateDeltaExchanger.s:HRTV_L_BEAST","p":0.1,"accept":4947,"reject":3484,"acceptFC":0,"rejectFC":0,"rejectIv":126,"rejectOp":126},
+{"id":"TIM3ufFrequenciesExchanger.s:HRTV_L_BEAST","p":0.01,"accept":4689,"reject":3571,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"fastUcldMeanScaler.c:HRTV_L_BEAST","p":0.5,"accept":76156,"reject":339562,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"fastUcldStdevScaler.c:HRTV_L_BEAST","p":0.5,"accept":168691,"reject":246712,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"FastInternalnodesOperator.c:HRTV_L_BEAST","p":0.02,"accept":1243405,"reject":419377,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"FastRootOperator1.c:HRTV_L_BEAST","p":0.02,"accept":68951,"reject":13843,"acceptFC":0,"rejectFC":0,"rejectIv":498,"rejectOp":498},
+{"id":"FastRootOperator2.c:HRTV_L_BEAST","p":0.02,"accept":69490,"reject":13550,"acceptFC":0,"rejectFC":0,"rejectIv":18,"rejectOp":0},
+{"id":"FastRootOperator3.c:HRTV_L_BEAST","p":0.002,"accept":598,"reject":7707,"acceptFC":0,"rejectFC":0,"rejectIv":5518,"rejectOp":5510},
+{"id":"RatesRandomWalk.c:HRTV_L_BEAST","p":0.1,"accept":158497,"reject":90999,"acceptFC":0,"rejectFC":0,"rejectIv":496,"rejectOp":496},
+{"id":"RatesSwapOperator.c:HRTV_L_BEAST","p":"NaN","accept":158513,"reject":91448,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"RatesScaleOperator.c:HRTV_L_BEAST","p":0.75,"accept":111455,"reject":137261,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"BayesianSkylineBICEPSEpochTop.t:HRTV_L_BEAST","p":0.1,"accept":43384,"reject":122293,"acceptFC":0,"rejectFC":0,"rejectIv":52568,"rejectOp":52568},
+{"id":"BayesianSkylineBICEPSEpochAll.t:HRTV_L_BEAST","p":0.1,"accept":44079,"reject":122523,"acceptFC":0,"rejectFC":0,"rejectIv":52105,"rejectOp":52105},
+{"id":"BayesianSkylineBICEPSTreeFlex.t:HRTV_L_BEAST","p":0.01,"accept":132132,"reject":34439,"acceptFC":0,"rejectFC":0,"rejectIv":10305,"rejectOp":10305},
+{"id":"BayesianSkylineTreeRootScaler.t:HRTV_L_BEAST","p":0.1,"accept":46096,"reject":204172,"acceptFC":0,"rejectFC":0,"rejectIv":88903,"rejectOp":88903},
+{"id":"BayesianSkylineUniformOperator.t:HRTV_L_BEAST","p":0.1,"accept":2252999,"reject":240826,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"BayesianSkylineSubtreeSlide.t:HRTV_L_BEAST","p":1,"accept":654708,"reject":593364,"acceptFC":0,"rejectFC":0,"rejectIv":167178,"rejectOp":167178},
+{"id":"BayesianSkylineNarrow.t:HRTV_L_BEAST","p":"NaN","accept":368429,"reject":878025,"acceptFC":0,"rejectFC":0,"rejectIv":156720,"rejectOp":156720},
+{"id":"BayesianSkylineWide.t:HRTV_L_BEAST","p":"NaN","accept":4165,"reject":244987,"acceptFC":0,"rejectFC":0,"rejectIv":181247,"rejectOp":181247},
+{"id":"BayesianSkylineWilsonBalding.t:HRTV_L_BEAST","p":"NaN","accept":4365,"reject":245719,"acceptFC":0,"rejectFC":0,"rejectIv":49450,"rejectOp":49450},
+{"id":"popSizesScaler.t:HRTV_L_BEAST","p":0.75,"accept":544674,"reject":701954,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"groupSizesDelta.t:HRTV_L_BEAST","p":1,"accept":184417,"reject":313219,"acceptFC":0,"rejectFC":0,"rejectIv":93053,"rejectOp":93053}
+]}
+-->
